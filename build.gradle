@@ -25,6 +25,9 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
     implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
 
+    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    testImplementation 'com.google.code.gson:gson:2.8.6'
+
     // при реализации проекте с использованием Selenium вместо библиотеки com.codeborne:selenide подключаются
     // org.seleniumhq.selenium:selenium-java и io.github.bonigarcia:webdrivermanager
     // testImplementation 'org.seleniumhq.selenium:selenium-java:4.11.0'
